@@ -1,5 +1,3 @@
-console.log("testing connection...");
-
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
@@ -20,7 +18,6 @@ function addTask(){
 }
 
 document.addEventListener('keydown', function(event){
-    console.log('Key code: ', event.code)
     if(event.code==='Enter'){
         addTask()
     }
